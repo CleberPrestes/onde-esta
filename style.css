@@ -1,80 +1,52 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, b, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+body{
 
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+    background-color: rgb(199, 230, 23);
+    margin: 0;
 
 
-
-
-
-
-*{
-    background-color: rgb(123, 139, 192);
-    
+    background: rgb(246,245,185);
+background: radial-gradient(circle, rgba(246,245,185,0.7707457983193278) 6%, rgba(229,233,30,1) 23%, rgba(241,255,0,0.8015581232492998) 83%);
 }
+
 
 .cabecalho{
-    background-color: rgb(100, 60, 175);
-    color: aliceblue;
-}
 
-.titulo{
-    background-color: rgb(55, 42, 128);
+    background-color: rgb(132, 146, 5);
     text-align: center;
-    padding: 50px;
-    font-size: 50px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+
+
+    text-shadow: 2px 2px rgb(48, 49, 1);
+
 }
 
-.gato{
-    margin: 100px;
-    align-items: center;
+.principal{
+
+    padding: 30px;
     display: flex;
-    align-items: center;
-     justify-content: space-around;
-   }
-
-.gato, img{
-    border-radius: 15%;
+    justify-content: center;
 }
+
+.pudim{
+    width: 450px;
+    border-radius: 50%;
+}
+
+.rodape{
+    background-color: rgb(132, 146, 5);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+
+
+    text-shadow: 2px 2px rgb(48, 49, 1);
+
+}
+
 
 
